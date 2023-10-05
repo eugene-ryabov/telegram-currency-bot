@@ -1,0 +1,16 @@
+telegram:
+    token: ${TOKEN}
+    name: "Currency bot"
+    user-limit: ${USER_LIMIT}
+    delay: ${DELAY}
+
+spring:
+    datasource:
+        username: ${POSTGRES_USERNAME}
+        password: ${POSTGRES_PASSWORD}
+        url: ${POSTGRES_URL}
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: create
